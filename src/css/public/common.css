@@ -1,0 +1,9 @@
+.el-header-top {
+    background-color: #333333;
+}
+.el-index-hd .el-row,
+.el-limithd-hd .el-row,
+.el-content-center{
+  width: 1180px;
+  margin: auto;
+}

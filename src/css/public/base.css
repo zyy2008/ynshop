@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: "Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  button{
+    font-family: "Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  }
+  .el-header{
+    padding: 0;
+  }
+  
+  .el-text-right{
+    text-align: right;
+  }
+  .el-text-center{
+    text-align: center;
+  }
+  .el-btn-obj{
+    border: 0;
+    padding: 0;
+  }
+  .el-button--default{
+    background-color: inherit;
+    border-color: #1f9993;
+    color: #1f9993;
+  }
+  .el-card {
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: inherit;
+      border-radius:10px;
+  }
+  .el-card__body {
+      padding: 0;
+  }
+  .el-card__header {
+      border: none;
+}
+.el-breadcrumb__inner a{
+  color: #999999;
+}
+.el-breadcrumb__item:last-child .el-breadcrumb__inner a{
+ color: #999999;
+}
+.el-breadcrumb__item .el-breadcrumb__inner a:hover,.el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover{
+color: #1f9993;
+}
+.el-goods-tag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.el-tag{
+  background-color: initial;
+  height: 26px;
+  line-height: 24px;
+  color: #e5be53;
+  border-color: #e5be53;
+ 
+}
+
+.el-goods{
+  border: 1px solid #dbe3e3;
+  position: relative;
+  transition: box-shadow 1s;
+}
+.el-goods:hover{
+  box-shadow: 0 0 20px 0 rgba(181,181,181,.8);
+}
+.el-goods-img{
+  height: 170px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.el-goods-info h2{
+  font-weight: initial;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.el-goods-price em{
+  font-style: initial;
+}
+.el-goods-price{
+    padding-bottom: 20px;
+}
+.el-font-b{
+    color: #ff6f5c;
+}
+.el-font-b b{
+    font-size: 36px;
+}
+.el-font-e{
+    color: #999999;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.el-font-e em.line{
+  text-decoration:line-through;
+}
+.el-goods-price.noline .el-font-e{
+  padding: 10px 0;
+}
+.el-main{
+  overflow: inherit;
+}
+.el-limitbg{
+  background-color: #f5f5f5;
+}
+.el-menu--horizontal > .el-menu-item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+.el-content-shadow{
+  width: 1200px;
+  
+}
+.el-content-shadow>.el-card{
+  padding: 0px 10px;
+}
+.el-table td{
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
